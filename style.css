@@ -15,6 +15,10 @@ body{
     border: none;
     border-radius: 5px;
     box-shadow: 2px 2px 2px hsl(51, 100%, 10%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 
 
@@ -22,11 +26,12 @@ body{
 #label{
     color: rgb(255, 0, 0);
     text-shadow: 0.5px 2px 2px rgba(128, 43, 0, 0.61);
+    font-size: x-large;
 
 }
 
 #input{
-    width: 35em;
+    width: 27em;
     height: 2em;
     background-color: rgba(255, 247, 243, 0.238);
     box-shadow: 2px 2px 2px silver;
