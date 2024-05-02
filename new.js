@@ -5,7 +5,7 @@ const answer = Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum;
 let attempts = 0;
 let guess;
 
-document.getElementById("label").textContent = `Guess a number between ${minNum} and ${maxNum}`;
+document.getElementById("label").textContent = `Guess the number between ${minNum} and ${maxNum}`;
 
 // while (running) {
 
